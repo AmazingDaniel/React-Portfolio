@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from "./Components/header"
+import Header from "./Components/Header"
 import Navbar from "./Components/Navbar"
 import Banner from "./Components/Banner"
 import About from "./Components/About"
@@ -11,26 +11,16 @@ import Contact from "./Components/Contact"
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <hr />
-      <Navbar />
-      <br />
-      <Banner />
-      <br />
-      <About />
-      <br />
-      <hr />
-      <h1 className="language">Language Learned</h1>
-      <hr />
-      <Portfolio />
-      <hr />
-      <Project />
-      <hr />
-      <h1 id="contactnav" className="contact">Contact Information</h1>
-      <hr />
-      <Contact />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/skills" component={Skills} />
+        <Route path="/contact" component={Contact} />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
