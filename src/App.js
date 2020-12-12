@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 import Header from "./Components/Header"
-import Navbar from "./Components/Navbar"
-import Banner from "./Components/Banner"
-import About from "./Components/About"
-import Project from "./Components/Project"
-import Portfolio from "./Components/Portfolio"
-import Contact from "./Components/Contact"
+import Home from "./Pages/Home"
+import Portfolio from "./Pages/Portfolio"
+import Language from './Pages/Language'
+import Contact from "./Pages/Contact"
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
 
 function App() {
@@ -16,7 +15,7 @@ function App() {
         <Header />
         <Route exact path="/" component={Home} />
         <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/skills" component={Skills} />
+        <Route exact path="/language" component={Language} />
         <Route path="/contact" component={Contact} />
         <Footer />
       </div>
