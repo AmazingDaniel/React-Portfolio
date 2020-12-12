@@ -1,0 +1,44 @@
+[
+    {
+        "name": "myInstagramClone",
+        "description": "Created my own version of Instagram!",
+        "repo": "https://github.com/AmazingDaniel/myInstagramClone.git",
+        "image": "Portfolio/src/Image/Screen Shot 2020-12-12 at 12.45.09 PM 2.png",
+        "deployed": "https://instagram-clone-2a3c0.web.app"
+    },
+    {
+        "name": "Work Day Scheduler",
+        "description": "Calender app that saves events for each hour of the day.",
+        "repo": "https://github.com/AmazingDaniel/Work-Day-Scheduler.git",
+        "image": "Portfolio/src/Image/Screen Shot 2020-12-12 at 1.00.07 PM.png",
+        "deployed": "https://amazingdaniel.github.io/Work-Day-Scheduler/"
+    },
+    {
+        "name": "Weather Dashboard",
+        "description": "Look up the weather in any city.",
+        "repo": "https://github.com/AmazingDaniel/Weather-Dashboard.git",
+        "image": "Portfolio/src/Image/Screen Shot 2020-12-12 at 12.53.49 PM.png",
+        "deployed": "https://amazingdaniel.github.io/Weather-Dashboard/"
+    },
+    {
+        "name": "Petstagram",
+        "description": "Instagram for pets.",
+        "repo": "https://github.com/Vincent-Diaz/Petstagram.git",
+        "image": "Portfolio/src/Image/Screen Shot 2020-12-12 at 1.05.28 PM.png",
+        "deployed": "https://petstagram52.herokuapp.com/"
+    },
+    {
+        "name": "Password Generator",
+        "description": "Custom Password.",
+        "repo": "https://github.com/AmazingDaniel/Password-Generator.git",
+        "image": "Portfolio/src/Image/Screen Shot 2020-12-12 at 1.10.48 PM.png",
+        "deployed": "https://amazingdaniel.github.io/Password-Generator/"
+    },
+    {
+        "name": "Note Taker",
+        "description": "Take notes save notes.",
+        "repo": "https://github.com/AmazingDaniel/Express-Note-Taker.git",
+        "image": "Portfolio/src/Image/Screen Shot 2020-12-12 at 1.14.16 PM.png",
+        "deployed": "https://not3sw33ttak3r.herokuapp.com"
+    }
+]
