@@ -1,6 +1,5 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image';
+import Container from 'react-bootstrap/esm/Container';
 
 const Contact = () => (
     <Container id="container">
